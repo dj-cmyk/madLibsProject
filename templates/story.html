@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title%} Story Display {% endblock%}
+
+{% block content %}
+<section class="story_display">
+    <h2>{{ story_title }}</h2>
+    <div>
+        {{ answers }}
+    </div>
+</section>
+{% endblock%}
